@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^$ /php_test/Udemy_Object_Oriented_PHP_and_MVC/test/traversymvc/public/ [L]
+    RewriteRule (.*) /php_test/Udemy_Object_Oriented_PHP_and_MVC/test/traversymvc/public/$1 [L]
+</IfModule>
